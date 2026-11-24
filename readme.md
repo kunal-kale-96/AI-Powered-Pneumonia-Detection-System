@@ -3,15 +3,13 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)](https://tensorflow.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red)](https://streamlit.io)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Accuracy](https://img.shields.io/badge/Accuracy-96.33%25-brightgreen)](https://github.com/Rugvedrc/AI-Powered-Pneumonia-Detection-System)
 [![ROC-AUC](https://img.shields.io/badge/ROC--AUC-99.42%25-success)](https://github.com/Rugvedrc/AI-Powered-Pneumonia-Detection-System)
 
 > **Advanced uncertainty-aware attention mechanism achieving 96.33% accuracy in pneumonia detection from chest X-rays**
 
 **📄 Paper Status:** Under review at **IEEE CICT 2025**  
-**Title:** *Uncertainty-Aware Attention Mechanism for Pneumonia Detection Using Chest X-Rays*  
-**Authors:** Archana W. Bhade, Smita M. Chavan, Rugved Rajesh Chandekar, Dnyanesh Milind Deshmukh, Aditya Keshav Magar
+**Title:** *Uncertainty-Aware Attention Mechanism for Pneumonia Detection Using Chest X-Rays*
 
 ---
 
@@ -33,7 +31,6 @@
 - [Features](#-features)
 - [Project Structure](#-project-structure)
 - [Research Paper](#-research-paper)
-- [License](#-license)
 
 ## 🎬 Demo
 
@@ -107,7 +104,7 @@ streamlit run app.py
 ```
 Access the application at `http://localhost:8501`
 
-If `models/attention_model.keras` contains text beginning with `version https://git-lfs.github.com/spec/v1`, it is a Git LFS pointer, not the model weights. The model weights are not included in this repository; obtain the actual weights from the project owner and replace the pointer before running the app.
+If `models/attention_model.keras` contains text beginning with `version https://git-lfs.github.com/spec/v1`, it is a Git LFS pointer, not the model weights. The model weights are not included in this repository. Obtain the actual weights from the project owner and replace the pointer before running the app.
 
 ### Python API Usage
 ```python
@@ -129,8 +126,8 @@ print(f"Uncertainty: {result['uncertainty']:.3f}")
 ### Batch Processing
 ```python
 results = detector.batch_predict([
-    "image1.jpg", 
-    "image2.jpg", 
+    "image1.jpg",
+    "image2.jpg",
     "image3.jpg"
 ])
 
@@ -206,43 +203,10 @@ AI-Powered-Pneumonia-Detection-System/
 
 **Title:** Uncertainty-Aware Attention Mechanism for Pneumonia Detection Using Chest X-Rays
 
-**Authors:**
-- Archana W. Bhade (Government College of Engineering, Aurangabad)
-- Smita M. Chavan (Government College of Engineering, Aurangabad)
-- Rugved Rajesh Chandekar (Government College of Engineering, Aurangabad)
-- Dnyanesh Milind Deshmukh (Government College of Engineering, Aurangabad)
-- Aditya Keshav Magar (Government College of Engineering, Aurangabad)
-
 **Status:** Under review at **IEEE CICT 2025**
 
-**Abstract:** This work proposes an uncertainty-aware deep learning framework integrating spatial and channel-based attention mechanisms with Monte Carlo Dropout for pneumonia detection from chest X-rays. The attention-augmented DenseNet121 model achieves 96.33% accuracy, 96.26% sensitivity, 96.53% specificity, 97.45% F1-score, and 99.42% ROC-AUC, demonstrating superior performance and explainability for clinical decision support.
-
-### Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@inproceedings{bhade2025uncertainty,
-  title={Uncertainty-Aware Attention Mechanism for Pneumonia Detection Using Chest X-Rays},
-  author={Bhade, Archana W. and Chavan, Smita M. and Chandekar, Rugved Rajesh and Deshmukh, Dnyanesh Milind and Magar, Aditya Keshav},
-  booktitle={IEEE International Conference on Computational Intelligence and Computing Technologies (CICT)},
-  year={2025},
-  note={Under Review}
-}
-```
+**Abstract:** This work proposes an uncertainty-aware deep learning framework integrating spatial and channel-based attention mechanisms with Monte Carlo Dropout for pneumonia detection from chest X-rays. The attention-augmented DenseNet121 model achieves 96.33% accuracy, 96.26% sensitivity, 96.53% specificity, 97.45% F1-score, and 99.42% ROC-AUC, demonstrating strong performance and explainability for clinical decision support.
 
 ## ⚖️ Medical Disclaimer
 
 **⚠️ IMPORTANT:** This software is intended for **educational and research purposes only**. It is **NOT approved for clinical use** and should **NOT** be used as a substitute for professional medical diagnosis. Always consult qualified healthcare professionals for medical decisions.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Government College of Engineering, Aurangabad (Chhatrapati Sambhajinagar)
-- Chest X-Ray Images (Pneumonia) dataset from Kaggle
-- TensorFlow and Keras development teams
-- Streamlit framework
-
