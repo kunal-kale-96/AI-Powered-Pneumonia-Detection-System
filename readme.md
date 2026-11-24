@@ -231,11 +231,6 @@ If you use this work in your research, please cite:
 }
 ```
 
-## 🔬 Training Pipeline
-
-**Note:** The training pipeline and dataset preparation code are not publicly available as this is ongoing research.
-If you need access to the training pipeline for research collaboration or educational purposes, please contact me directly at [rugvedchandekar@gmail.com](mailto:rugvedchandekar@gmail.com).
-
 ## ⚖️ Medical Disclaimer
 
 **⚠️ IMPORTANT:** This software is intended for **educational and research purposes only**. It is **NOT approved for clinical use** and should **NOT** be used as a substitute for professional medical diagnosis. Always consult qualified healthcare professionals for medical decisions.
@@ -251,23 +246,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - TensorFlow and Keras development teams
 - Streamlit framework
 
-## 📞 Contact
-
-**Rugved Rajesh Chandekar**
-- 📧 Email: rugvedchandekar@gmail.com
-- 💻 GitHub: [@Rugvedrc](https://github.com/Rugvedrc)
-- 🤗 HuggingFace: [rugvedrc](https://huggingface.co/rugvedrc)
-- 💬 Issues: [GitHub Issues](https://github.com/Rugvedrc/AI-Powered-Pneumonia-Detection-System/issues)
-
----
-
-<div align="center">
-
-**⭐ If you find this project helpful, please star the repository! ⭐**
-
-[![GitHub stars](https://img.shields.io/github/stars/Rugvedrc/AI-Powered-Pneumonia-Detection-System.svg?style=social&label=Star)](https://github.com/Rugvedrc/AI-Powered-Pneumonia-Detection-System)
-[![GitHub forks](https://img.shields.io/github/forks/Rugvedrc/AI-Powered-Pneumonia-Detection-System.svg?style=social&label=Fork)](https://github.com/Rugvedrc/AI-Powered-Pneumonia-Detection-System/fork)
-
-Made with ❤️ for advancing medical AI research
-
-</div>
