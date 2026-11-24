@@ -18,7 +18,7 @@
 - **🏅 96.33% Accuracy** with 99.42% ROC-AUC on chest X-ray classification
 - **🧠 Attention-Augmented DenseNet121** with spatial and channel attention mechanisms
 - **📊 Uncertainty Quantification** via Monte Carlo Dropout for confident predictions
-- **🔍 Explainable AI** using Grad-CAM visualizations showing model focus areas
+- **🔍 Explainable AI** using Grad-CAM visualizations showing model focus areas  
 - **💡 Ready-to-Use Model** available for immediate deployment and testing
 
 ## 📋 Table of Contents
