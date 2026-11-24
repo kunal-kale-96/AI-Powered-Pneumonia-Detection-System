@@ -107,7 +107,7 @@ streamlit run app.py
 ```
 Access the application at `http://localhost:8501`
 
-If the model fails to load and `models/attention_model.keras` contains text beginning with `version https://git-lfs.github.com/spec/v1`, it is a Git LFS pointer rather than the model weights. Install Git LFS, then run `git lfs pull` from a Git clone of the repository to retrieve the model file.
+If `models/attention_model.keras` contains text beginning with `version https://git-lfs.github.com/spec/v1`, it is a Git LFS pointer, not the model weights. The model weights are not included in this repository; obtain the actual weights from the project owner and replace the pointer before running the app.
 
 ### Python API Usage
 ```python
